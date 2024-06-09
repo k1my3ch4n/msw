@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
-const TFT_CHAMP_URL =
+export const TFT_CHAMP_URL =
   "https://ddragon.leagueoflegends.com/cdn/14.11.1/data/ko_KR/tft-champion.json";
 
 const TFT_PREFIX = "TFT11";
