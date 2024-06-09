@@ -1,22 +1,14 @@
-import { useEffect, useState } from "react";
 import "./App.css";
+import useGetChampionData from "./hooks/useGetChampionData";
 
 const App = () => {
-  const [data, setData] = useState(undefined);
+  const { handleGetChampionData } = useGetChampionData();
 
-  useEffect(() => {
-    fetch(
-      // "https://ddragon.leagueoflegends.com/cdn/14.11.1/data/ko_KR/champion.json"
-      "https://ddragon.leagueoflegends.com/cdn/14.11.1/data/ko_KR/tft-champion.json"
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setData(data.data);
-      });
-  }, []);
-
-  return <div>msw</div>;
+  return (
+    <div>
+      <button onClick={handleGetChampionData}>get Data</button>
+    </div>
+  );
 };
 
 export default App;
