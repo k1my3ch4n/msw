@@ -26,7 +26,7 @@ export const adapter = (data: Record<string, GetChampionData>) => {
     return;
   }
 
-  const filteredData = Object.keys(data).reduce((acc, key) => {
+  const filteredChampionData = Object.keys(data).reduce((acc, key) => {
     if (key.includes(TFT_PREFIX)) {
       acc[key] = data[key];
     }
@@ -34,7 +34,7 @@ export const adapter = (data: Record<string, GetChampionData>) => {
     return acc;
   }, {} as Record<string, GetChampionData>);
 
-  return filteredData;
+  return filteredChampionData;
 };
 
 const useGetChampionData = () => {
