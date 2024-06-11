@@ -1,5 +1,5 @@
-import { renderHook } from "@testing-library/react-hooks";
-import { act } from "react";
+import { renderHook, act } from "@testing-library/react-hooks";
+
 import useGetChampionData, { adapter } from "./useGetChampionData";
 import { GET_CHAMPION_DATA_RESPONSE } from "../../fixtures/tft";
 
@@ -8,12 +8,14 @@ const renderUseGetChampionData = () => {
 };
 
 describe("useGetChampionData", () => {
-  it("결과 값을 반환한다.", async () => {
-    const { result, waitForNextUpdate } = renderUseGetChampionData();
+  it("fetchGetChampionData 가 실행되면 , data 를 갱신한다.", async () => {
+    const { result } = renderUseGetChampionData();
 
-    act(() => result.current.handleGetChampionData());
+    expect(result.current.data).toBeUndefined();
 
-    await waitForNextUpdate();
+    await act(async () => {
+      await result.current.fetchGetChampionData();
+    });
 
     expect(result.current.data).toEqual(adapter(GET_CHAMPION_DATA_RESPONSE));
   });

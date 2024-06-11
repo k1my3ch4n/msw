@@ -40,7 +40,7 @@ export const adapter = (data: Record<string, GetChampionData>) => {
 const useGetChampionData = () => {
   const [data, setData] = useState<Record<string, GetChampionData>>();
 
-  const handleGetChampionData = async () => {
+  const fetchGetChampionData = async () => {
     try {
       const response = await axios.create().get(TFT_CHAMP_URL);
 
@@ -54,7 +54,7 @@ const useGetChampionData = () => {
 
   return {
     data,
-    handleGetChampionData,
+    fetchGetChampionData,
   };
 };
 
