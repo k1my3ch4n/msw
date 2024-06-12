@@ -2,11 +2,11 @@ import "./App.css";
 import useGetChampionData from "./hooks/useGetChampionData";
 
 const App = () => {
-  const { handleGetChampionData } = useGetChampionData();
+  const { fetchGetChampionData } = useGetChampionData();
 
   return (
     <div>
-      <button onClick={handleGetChampionData}>get Data</button>
+      <button onClick={fetchGetChampionData}>get Data</button>
     </div>
   );
 };
