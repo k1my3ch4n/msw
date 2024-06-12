@@ -20,6 +20,24 @@ describe("useGetChampionData", () => {
     expect(result.current.data).toEqual(adapter(GET_CHAMPION_DATA_RESPONSE));
   });
 
+  it("fetchGetChampionData 가 실행 후 data가 없다면 , undefined 가 출력된다.", async () => {
+    server.use(
+      rest.get(TFT_CHAMP_URL, (_, res, ctx) => {
+        return res(ctx.status(200), ctx.json({ data: undefined }));
+      })
+    );
+
+    const { result } = renderHook(useGetChampionData);
+
+    expect(result.current.data).toBeUndefined();
+
+    await act(async () => {
+      await result.current.fetchGetChampionData();
+    });
+
+    expect(result.current.data).toBeUndefined();
+  });
+
   it("fetchGetChampionData 가 실패하면 , console error 가 호출된다. ", async () => {
     const mockConsoleError = jest
       .spyOn(console, "error")
