@@ -38,7 +38,8 @@ export const adapter = (data: Record<string, GetChampionData>) => {
 };
 
 const useGetChampionData = () => {
-  const [data, setData] = useState<Record<string, GetChampionData>>();
+  const [dataChampionData, setChampionData] =
+    useState<Record<string, GetChampionData>>();
 
   const fetchGetChampionData = async () => {
     try {
@@ -46,14 +47,14 @@ const useGetChampionData = () => {
 
       const { data } = response;
 
-      setData(adapter(data.data));
+      setChampionData(adapter(data.data));
     } catch (error) {
-      console.log("useGetChampData Error : ", error);
+      console.error("useGetChampData Error : ", error);
     }
   };
 
   return {
-    data,
+    data: dataChampionData,
     fetchGetChampionData,
   };
 };

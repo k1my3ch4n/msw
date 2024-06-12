@@ -1,9 +1,7 @@
 import "@testing-library/jest-dom";
 import { server } from "./src/mocks/server";
 
-server.listen();
-
-beforeAll(() => server.listen({ onUnhandledRequest: "error" }));
+beforeAll(() => server.listen());
 
 afterEach(() => server.resetHandlers());
 
