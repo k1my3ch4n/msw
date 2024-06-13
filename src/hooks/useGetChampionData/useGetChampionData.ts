@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const TFT_PREFIX = "TFT11";
 
-interface GetChampionData {
+export interface GetChampionData {
   id: string;
   image: {
     full: string;
