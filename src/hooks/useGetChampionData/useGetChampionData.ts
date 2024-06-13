@@ -39,20 +39,31 @@ const useGetChampionData = () => {
   const [dataChampionData, setChampionData] =
     useState<Record<string, GetChampionData>>();
 
+  const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
+
   const fetchGetChampionData = async () => {
     try {
+      setIsError(false);
+      setIsLoading(true);
+
       const response = await axios.create().get(TFT_CHAMP_URL);
 
       const { data } = response;
 
       setChampionData(adapter(data.data));
     } catch (error) {
+      setIsError(true);
       console.error("useGetChampData Error : ", error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
   return {
     data: dataChampionData,
+    isLoading,
+    isError,
     fetchGetChampionData,
   };
 };
