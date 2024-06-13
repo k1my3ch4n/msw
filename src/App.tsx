@@ -1,23 +1,15 @@
-import styles from "./App.module.scss";
-import "./App.css";
+import Cards from "@components/Cards";
 import Button from "@components/Button";
 import useGetChampionData from "@hooks/useGetChampionData";
-import Card from "@components/Card";
 
 const App = () => {
-  const { data, fetchGetChampionData } = useGetChampionData();
-
-  console.log(data);
+  const { data, isLoading, isError, fetchGetChampionData } =
+    useGetChampionData();
 
   return (
     <div>
       <Button onClick={fetchGetChampionData}>챔피언 데이터</Button>
-
-      <div className={styles.cards}>
-        {data?.map((data) => {
-          return <Card data={data} />;
-        })}
-      </div>
+      <Cards data={data} isLoading={isLoading} isError={isError} />
     </div>
   );
 };

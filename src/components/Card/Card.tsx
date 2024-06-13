@@ -1,12 +1,12 @@
 import styles from "./Card.module.scss";
 import { GetChampionData } from "@hooks/useGetChampionData";
 
+const COLOR_MAP = ["gray", "green", "blue", "pink", "orange"];
+
 const Card = ({ data }: { data: GetChampionData }) => {
   const { name, tier } = data;
 
-  const ddd = ["gray", "green", "blue", "pink", "orange"];
-
-  const commonStyle = `${styles[ddd[tier - 1]]}`;
+  const commonStyle = `${styles[COLOR_MAP[tier - 1]]}`;
 
   return (
     <div className={`${styles.wrapper} ${commonStyle}`}>

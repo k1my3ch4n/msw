@@ -32,7 +32,9 @@ export const adapter = (data: Record<string, GetChampionData>) => {
 };
 
 const useGetChampionData = () => {
-  const [dataChampionData, setChampionData] = useState<GetChampionData[]>();
+  const [dataChampionData, setChampionData] = useState<
+    GetChampionData[] | undefined
+  >(undefined);
 
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
