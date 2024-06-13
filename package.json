@@ -51,6 +51,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-html-reporters": "^3.1.7",
     "msw": "^1.2.1",
+    "msw-storybook-addon": "^1.10.0",
     "sass": "^1.77.5",
     "storybook": "^8.1.8",
     "ts-node": "^10.9.2",
@@ -59,8 +60,9 @@
     "vite-tsconfig-paths": "^4.3.2"
   },
   "msw": {
-    "workerDirectory": [
-      "public"
-    ]
+    "workerDirectory": "public"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }
