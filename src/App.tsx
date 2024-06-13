@@ -1,12 +1,15 @@
-import "./App.css";
-import useGetChampionData from "./hooks/useGetChampionData";
+import Cards from "@components/Cards";
+import Button from "@components/Button";
+import useGetChampionData from "@hooks/useGetChampionData";
 
 const App = () => {
-  const { handleGetChampionData } = useGetChampionData();
+  const { data, isLoading, isError, fetchGetChampionData } =
+    useGetChampionData();
 
   return (
     <div>
-      <button onClick={handleGetChampionData}>get Data</button>
+      <Button onClick={fetchGetChampionData}>챔피언 데이터</Button>
+      <Cards data={data} isLoading={isLoading} isError={isError} />
     </div>
   );
 };

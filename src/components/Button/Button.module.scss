@@ -1,0 +1,45 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 8px;
+
+  white-space: nowrap;
+
+  cursor: pointer;
+}
+
+.l {
+  height: 40px;
+  padding: 10px 20px;
+}
+
+.m {
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.blue {
+  background-color: lightblue;
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+.outlined {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  color: gray;
+  &:hover {
+    color: black;
+    border: 1px solid gray;
+  }
+}
+
+.hasIcon {
+  background-color: transparent;
+  padding: 4px;
+}

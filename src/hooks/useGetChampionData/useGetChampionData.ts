@@ -1,12 +1,10 @@
+import { TFT_CHAMP_URL } from "@fixtures/tft";
 import axios from "axios";
 import { useState } from "react";
 
-export const TFT_CHAMP_URL =
-  "https://ddragon.leagueoflegends.com/cdn/14.11.1/data/ko_KR/tft-champion.json";
-
 const TFT_PREFIX = "TFT11";
 
-interface GetChampionData {
+export interface GetChampionData {
   id: string;
   image: {
     full: string;
@@ -26,35 +24,43 @@ export const adapter = (data: Record<string, GetChampionData>) => {
     return;
   }
 
-  const filteredChampionData = Object.keys(data).reduce((acc, key) => {
-    if (key.includes(TFT_PREFIX)) {
-      acc[key] = data[key];
-    }
-
-    return acc;
-  }, {} as Record<string, GetChampionData>);
+  const filteredChampionData = Object.values(data).filter(({ id }) =>
+    id.includes(TFT_PREFIX)
+  );
 
   return filteredChampionData;
 };
 
 const useGetChampionData = () => {
-  const [dataChampionData, setChampionData] =
-    useState<Record<string, GetChampionData>>();
+  const [dataChampionData, setChampionData] = useState<
+    GetChampionData[] | undefined
+  >(undefined);
+
+  const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const fetchGetChampionData = async () => {
     try {
+      setIsError(false);
+      setIsLoading(true);
+
       const response = await axios.create().get(TFT_CHAMP_URL);
 
       const { data } = response;
 
       setChampionData(adapter(data.data));
     } catch (error) {
+      setIsError(true);
       console.error("useGetChampData Error : ", error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
   return {
     data: dataChampionData,
+    isLoading,
+    isError,
     fetchGetChampionData,
   };
 };

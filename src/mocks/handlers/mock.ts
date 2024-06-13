@@ -1,6 +1,5 @@
 import { rest } from "msw";
-import { TFT_CHAMP_URL } from "../../hooks/useGetChampionData/useGetChampionData";
-import { GET_CHAMPION_DATA_RESPONSE } from "../../fixtures/tft";
+import { GET_CHAMPION_DATA_RESPONSE, TFT_CHAMP_URL } from "@fixtures/tft";
 
 export const mockHandler = [
   rest.get(TFT_CHAMP_URL, (_, res, ctx) => {
