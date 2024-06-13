@@ -26,6 +26,7 @@
       "@hooks/*": ["./src/hooks/*"],
       "@components/*": ["./src/components/*"],
       "@fixtures/*": ["./src/fixtures/*"],
+      "@utils/*": ["./src/utils/*"],
       "@mocks/*": ["./src/mocks/*"]
     }
   },

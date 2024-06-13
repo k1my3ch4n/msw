@@ -24,20 +24,15 @@ export const adapter = (data: Record<string, GetChampionData>) => {
     return;
   }
 
-  const filteredChampionData = Object.keys(data).reduce((acc, key) => {
-    if (key.includes(TFT_PREFIX)) {
-      acc[key] = data[key];
-    }
-
-    return acc;
-  }, {} as Record<string, GetChampionData>);
+  const filteredChampionData = Object.values(data).filter(({ id }) =>
+    id.includes(TFT_PREFIX)
+  );
 
   return filteredChampionData;
 };
 
 const useGetChampionData = () => {
-  const [dataChampionData, setChampionData] =
-    useState<Record<string, GetChampionData>>();
+  const [dataChampionData, setChampionData] = useState<GetChampionData[]>();
 
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
