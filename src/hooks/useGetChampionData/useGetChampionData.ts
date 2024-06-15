@@ -28,6 +28,8 @@ export const adapter = (data: Record<string, GetChampionData>) => {
     id.includes(TFT_PREFIX)
   );
 
+  console.log(filteredChampionData);
+
   return filteredChampionData;
 };
 
@@ -56,6 +58,8 @@ const useGetChampionData = () => {
       setIsLoading(false);
     }
   };
+
+  console.log("data : ", dataChampionData);
 
   return {
     data: dataChampionData,

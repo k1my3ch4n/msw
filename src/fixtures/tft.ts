@@ -3,7 +3,7 @@ export const TFT_CHAMP_URL =
 
 export const GET_CHAMPION_DATA_RESPONSE = {
   TFT11_Mock1: {
-    id: "mockId1",
+    id: "TFT11_Mock1",
     image: {
       full: "mockImageFull1.png",
       group: "mockImageGroup1.png",
@@ -17,7 +17,7 @@ export const GET_CHAMPION_DATA_RESPONSE = {
     tier: 1,
   },
   TFT11_Mock2: {
-    id: "mockId2",
+    id: "TFT11_Mock2",
     image: {
       full: "mockImageFull2.png",
       group: "mockImageGroup2.png",
@@ -31,7 +31,7 @@ export const GET_CHAMPION_DATA_RESPONSE = {
     tier: 2,
   },
   TFT11_Mock3: {
-    id: "mockId3",
+    id: "TFT11_Mock3",
     image: {
       full: "mockImageFull3.png",
       group: "mockImageGroup3.png",
@@ -45,7 +45,7 @@ export const GET_CHAMPION_DATA_RESPONSE = {
     tier: 3,
   },
   TFTTutorial_Mock4: {
-    id: "mockId4",
+    id: "TFTTutorial_Mock4",
     image: {
       full: "mockImageFull4.png",
       group: "mockImageGroup4.png",
@@ -59,7 +59,7 @@ export const GET_CHAMPION_DATA_RESPONSE = {
     tier: 4,
   },
   TFTTutorial_Mock5: {
-    id: "mockId5",
+    id: "TFTTutorial_Mock5",
     image: {
       full: "mockImageFull5.png",
       group: "mockImageGroup5.png",
