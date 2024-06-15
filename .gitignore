@@ -23,3 +23,8 @@ reports
 *.njsproj
 *.sln
 *.sw?
+
+*storybook.log
+
+# 추후 삭제 예정
+stories

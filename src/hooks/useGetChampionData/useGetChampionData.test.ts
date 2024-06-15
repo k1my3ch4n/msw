@@ -1,7 +1,7 @@
 import { renderHook, act } from "@testing-library/react";
 import useGetChampionData, { adapter } from "./useGetChampionData";
-import { GET_CHAMPION_DATA_RESPONSE, TFT_CHAMP_URL } from "@fixtures/tft";
-import { server } from "@mocks/server";
+import { GET_CHAMPION_DATA_RESPONSE, TFT_CHAMP_URL } from "../../fixtures/tft";
+import { server } from "../../mocks/server";
 import { rest } from "msw";
 
 describe("useGetChampionData", () => {
