@@ -6434,37 +6434,6 @@ const RAW_RUNTIME_STATE =
           "vitest"\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["virtual:9de093e1782c000981808363f492129c721f03f74adc76b561fa6ee8c35200d59020eebb248beaa0ad010421717148c08f5dbcb74f86977b14aa311997e60f28#npm:6.4.6", {\
-        "packageLocation": "./.yarn/__virtual__/@testing-library-jest-dom-virtual-3ca45ba831/3/Users/예찬/AppData/Local/Yarn/Berry/cache/@testing-library-jest-dom-npm-6.4.6-e1b86782a7-10c0.zip/node_modules/@testing-library/jest-dom/",\
-        "packageDependencies": [\
-          ["@testing-library/jest-dom", "virtual:9de093e1782c000981808363f492129c721f03f74adc76b561fa6ee8c35200d59020eebb248beaa0ad010421717148c08f5dbcb74f86977b14aa311997e60f28#npm:6.4.6"],\
-          ["@adobe/css-tools", "npm:4.4.0"],\
-          ["@babel/runtime", "npm:7.24.7"],\
-          ["@jest/globals", null],\
-          ["@types/bun", null],\
-          ["@types/jest", "npm:29.5.12"],\
-          ["@types/jest__globals", null],\
-          ["@types/vitest", null],\
-          ["aria-query", "npm:5.3.0"],\
-          ["chalk", "npm:3.0.0"],\
-          ["css.escape", "npm:1.5.1"],\
-          ["dom-accessibility-api", "npm:0.6.3"],\
-          ["jest", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:29.7.0"],\
-          ["lodash", "npm:4.17.21"],\
-          ["redent", "npm:3.0.0"],\
-          ["vitest", "workspace:packages/vitest"]\
-        ],\
-        "packagePeers": [\
-          "@jest/globals",\
-          "@types/bun",\
-          "@types/jest",\
-          "@types/jest__globals",\
-          "@types/vitest",\
-          "jest",\
-          "vitest"\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["@testing-library/react", [\
@@ -7473,6 +7442,40 @@ const RAW_RUNTIME_STATE =
           ["chai", "npm:4.4.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.6.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/@vitest-expect-npm-1.6.0-0e382f8212-10c0.zip/node_modules/@vitest/expect/",\
+        "packageDependencies": [\
+          ["@vitest/expect", "npm:1.6.0"],\
+          ["@vitest/spy", "npm:1.6.0"],\
+          ["@vitest/utils", "npm:1.6.0"],\
+          ["chai", "npm:4.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vitest/runner", [\
+      ["npm:1.6.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/@vitest-runner-npm-1.6.0-347d69d63d-10c0.zip/node_modules/@vitest/runner/",\
+        "packageDependencies": [\
+          ["@vitest/runner", "npm:1.6.0"],\
+          ["@vitest/utils", "npm:1.6.0"],\
+          ["p-limit", "npm:5.0.0"],\
+          ["pathe", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vitest/snapshot", [\
+      ["npm:1.6.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/@vitest-snapshot-npm-1.6.0-b7ed094dc8-10c0.zip/node_modules/@vitest/snapshot/",\
+        "packageDependencies": [\
+          ["@vitest/snapshot", "npm:1.6.0"],\
+          ["magic-string", "npm:0.30.10"],\
+          ["pathe", "npm:1.1.2"],\
+          ["pretty-format", "npm:29.7.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@vitest/spy", [\
@@ -8400,6 +8403,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["cac", [\
+      ["npm:6.7.14", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/cac-npm-6.7.14-c46284e425-10c0.zip/node_modules/cac/",\
+        "packageDependencies": [\
+          ["cac", "npm:6.7.14"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cacache", [\
       ["npm:18.0.3", {\
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/cacache-npm-18.0.3-7936f526c3-10c0.zip/node_modules/cacache/",\
@@ -8822,6 +8834,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/concat-map-npm-0.0.1-85a921b7ee-10c0.zip/node_modules/concat-map/",\
         "packageDependencies": [\
           ["concat-map", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["confbox", [\
+      ["npm:0.1.7", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/confbox-npm-0.1.7-0fb39b2d88-10c0.zip/node_modules/confbox/",\
+        "packageDependencies": [\
+          ["confbox", "npm:0.1.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12345,6 +12366,13 @@ const RAW_RUNTIME_STATE =
           ["js-tokens", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:9.0.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/js-tokens-npm-9.0.0-35a2868eaf-10c0.zip/node_modules/js-tokens/",\
+        "packageDependencies": [\
+          ["js-tokens", "npm:9.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["js-yaml", [\
@@ -12635,6 +12663,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-10c0.zip/node_modules/lines-and-columns/",\
         "packageDependencies": [\
           ["lines-and-columns", "npm:1.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["local-pkg", [\
+      ["npm:0.5.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/local-pkg-npm-0.5.0-c126c7ec8b-10c0.zip/node_modules/local-pkg/",\
+        "packageDependencies": [\
+          ["local-pkg", "npm:0.5.0"],\
+          ["mlly", "npm:1.7.1"],\
+          ["pkg-types", "npm:1.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13139,6 +13178,19 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["mlly", [\
+      ["npm:1.7.1", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/mlly-npm-1.7.1-c00aa0548e-10c0.zip/node_modules/mlly/",\
+        "packageDependencies": [\
+          ["mlly", "npm:1.7.1"],\
+          ["acorn", "npm:8.12.0"],\
+          ["pathe", "npm:1.1.2"],\
+          ["pkg-types", "npm:1.1.1"],\
+          ["ufo", "npm:1.5.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ms", [\
       ["npm:2.0.0", {\
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/ms-npm-2.0.0-9e1101a471-10c0.zip/node_modules/ms/",\
@@ -13616,6 +13668,14 @@ const RAW_RUNTIME_STATE =
           ["yocto-queue", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/p-limit-npm-5.0.0-cc102b17d7-10c0.zip/node_modules/p-limit/",\
+        "packageDependencies": [\
+          ["p-limit", "npm:5.0.0"],\
+          ["yocto-queue", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["p-locate", [\
@@ -13904,6 +13964,18 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["pkg-dir", "npm:5.0.0"],\
           ["find-up", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pkg-types", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/pkg-types-npm-1.1.1-d3bdcba553-10c0.zip/node_modules/pkg-types/",\
+        "packageDependencies": [\
+          ["pkg-types", "npm:1.1.1"],\
+          ["confbox", "npm:0.1.7"],\
+          ["mlly", "npm:1.7.1"],\
+          ["pathe", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -15124,6 +15196,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["siginfo", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/siginfo-npm-2.0.0-9bbac931f8-10c0.zip/node_modules/siginfo/",\
+        "packageDependencies": [\
+          ["siginfo", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["signal-exit", [\
       ["npm:3.0.7", {\
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/signal-exit-npm-3.0.7-bd270458a3-10c0.zip/node_modules/signal-exit/",\
@@ -15320,11 +15401,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["stackback", [\
+      ["npm:0.0.2", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/stackback-npm-0.0.2-73273dc92e-10c0.zip/node_modules/stackback/",\
+        "packageDependencies": [\
+          ["stackback", "npm:0.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["statuses", [\
       ["npm:2.0.1", {\
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/statuses-npm-2.0.1-81d2b97fee-10c0.zip/node_modules/statuses/",\
         "packageDependencies": [\
           ["statuses", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["std-env", [\
+      ["npm:3.7.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/std-env-npm-3.7.0-5261c3c3c3-10c0.zip/node_modules/std-env/",\
+        "packageDependencies": [\
+          ["std-env", "npm:3.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -15512,6 +15611,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["strip-literal", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/strip-literal-npm-2.1.0-3503c34c5f-10c0.zip/node_modules/strip-literal/",\
+        "packageDependencies": [\
+          ["strip-literal", "npm:2.1.0"],\
+          ["js-tokens", "npm:9.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["supports-color", [\
       ["npm:5.5.0", {\
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/supports-color-npm-5.5.0-183ac537bc-10c0.zip/node_modules/supports-color/",\
@@ -15686,6 +15795,24 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/tiny-invariant-npm-1.3.3-e622f1447c-10c0.zip/node_modules/tiny-invariant/",\
         "packageDependencies": [\
           ["tiny-invariant", "npm:1.3.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tinybench", [\
+      ["npm:2.8.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/tinybench-npm-2.8.0-e63baae395-10c0.zip/node_modules/tinybench/",\
+        "packageDependencies": [\
+          ["tinybench", "npm:2.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tinypool", [\
+      ["npm:0.8.4", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/tinypool-npm-0.8.4-043dfecb16-10c0.zip/node_modules/tinypool/",\
+        "packageDependencies": [\
+          ["tinypool", "npm:0.8.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16472,6 +16599,98 @@ const RAW_RUNTIME_STATE =
           "terser"\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["virtual:2c30557d8ca5e7c67e7558d45bc44bef6c7a622b34a97fa8102f3235f92769c87777d34ed37059c12d8f3a21841ea06cf4badc5dc796697b0f765c17db6e24e5#npm:5.3.1", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-10bdc6e480/3/Users/예찬/AppData/Local/Yarn/Berry/cache/vite-npm-5.3.1-0fe9027262-10c0.zip/node_modules/vite/",\
+        "packageDependencies": [\
+          ["vite", "virtual:2c30557d8ca5e7c67e7558d45bc44bef6c7a622b34a97fa8102f3235f92769c87777d34ed37059c12d8f3a21841ea06cf4badc5dc796697b0f765c17db6e24e5#npm:5.3.1"],\
+          ["@types/less", null],\
+          ["@types/lightningcss", null],\
+          ["@types/node", null],\
+          ["@types/sass", null],\
+          ["@types/stylus", null],\
+          ["@types/sugarss", null],\
+          ["@types/terser", null],\
+          ["esbuild", "npm:0.21.5"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+          ["less", null],\
+          ["lightningcss", null],\
+          ["postcss", "npm:8.4.38"],\
+          ["rollup", "npm:4.18.0"],\
+          ["sass", null],\
+          ["stylus", null],\
+          ["sugarss", null],\
+          ["terser", null]\
+        ],\
+        "packagePeers": [\
+          "@types/less",\
+          "@types/lightningcss",\
+          "@types/node",\
+          "@types/sass",\
+          "@types/stylus",\
+          "@types/sugarss",\
+          "@types/terser",\
+          "less",\
+          "lightningcss",\
+          "sass",\
+          "stylus",\
+          "sugarss",\
+          "terser"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:ab3ca760e5639cd55289aaad8daf07420bc09cf688dc26954ff5ef0b01c08a2d692e78ce9bafec76f39f1bae1aab64f649d1492caa134730e875ba0fc85d6500#npm:5.3.1", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-99636122f2/3/Users/예찬/AppData/Local/Yarn/Berry/cache/vite-npm-5.3.1-0fe9027262-10c0.zip/node_modules/vite/",\
+        "packageDependencies": [\
+          ["vite", "virtual:ab3ca760e5639cd55289aaad8daf07420bc09cf688dc26954ff5ef0b01c08a2d692e78ce9bafec76f39f1bae1aab64f649d1492caa134730e875ba0fc85d6500#npm:5.3.1"],\
+          ["@types/less", null],\
+          ["@types/lightningcss", null],\
+          ["@types/node", "npm:20.14.5"],\
+          ["@types/sass", null],\
+          ["@types/stylus", null],\
+          ["@types/sugarss", null],\
+          ["@types/terser", null],\
+          ["esbuild", "npm:0.21.5"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+          ["less", null],\
+          ["lightningcss", null],\
+          ["postcss", "npm:8.4.38"],\
+          ["rollup", "npm:4.18.0"],\
+          ["sass", null],\
+          ["stylus", null],\
+          ["sugarss", null],\
+          ["terser", null]\
+        ],\
+        "packagePeers": [\
+          "@types/less",\
+          "@types/lightningcss",\
+          "@types/node",\
+          "@types/sass",\
+          "@types/stylus",\
+          "@types/sugarss",\
+          "@types/terser",\
+          "less",\
+          "lightningcss",\
+          "sass",\
+          "stylus",\
+          "sugarss",\
+          "terser"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vite-node", [\
+      ["npm:1.6.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/vite-node-npm-1.6.0-2c30557d8c-10c0.zip/node_modules/vite-node/",\
+        "packageDependencies": [\
+          ["vite-node", "npm:1.6.0"],\
+          ["cac", "npm:6.7.14"],\
+          ["debug", "virtual:b26422bd59fa17e008d6bc0175738ae8cd421c0bdf97531bc9d7ba8df7eb875cf3586702fdab2ad784dd2bd788b2ef7d413cd512768add7bfe10a3e1b04e9659#npm:4.3.5"],\
+          ["pathe", "npm:1.1.2"],\
+          ["picocolors", "npm:1.0.1"],\
+          ["vite", "virtual:2c30557d8ca5e7c67e7558d45bc44bef6c7a622b34a97fa8102f3235f92769c87777d34ed37059c12d8f3a21841ea06cf4badc5dc796697b0f765c17db6e24e5#npm:5.3.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["vite-tsconfig-paths", [\
@@ -16500,10 +16719,67 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vitest", [\
+      ["npm:1.6.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/vitest-npm-1.6.0-55b47a8207-10c0.zip/node_modules/vitest/",\
+        "packageDependencies": [\
+          ["vitest", "npm:1.6.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:9de093e1782c000981808363f492129c721f03f74adc76b561fa6ee8c35200d59020eebb248beaa0ad010421717148c08f5dbcb74f86977b14aa311997e60f28#npm:1.6.0", {\
+        "packageLocation": "./.yarn/__virtual__/vitest-virtual-ab3ca760e5/3/Users/예찬/AppData/Local/Yarn/Berry/cache/vitest-npm-1.6.0-55b47a8207-10c0.zip/node_modules/vitest/",\
+        "packageDependencies": [\
+          ["vitest", "virtual:9de093e1782c000981808363f492129c721f03f74adc76b561fa6ee8c35200d59020eebb248beaa0ad010421717148c08f5dbcb74f86977b14aa311997e60f28#npm:1.6.0"],\
+          ["@edge-runtime/vm", null],\
+          ["@types/edge-runtime__vm", null],\
+          ["@types/happy-dom", null],\
+          ["@types/jsdom", null],\
+          ["@types/node", "npm:20.14.5"],\
+          ["@types/vitest__browser", null],\
+          ["@types/vitest__ui", null],\
+          ["@vitest/browser", null],\
+          ["@vitest/expect", "npm:1.6.0"],\
+          ["@vitest/runner", "npm:1.6.0"],\
+          ["@vitest/snapshot", "npm:1.6.0"],\
+          ["@vitest/spy", "npm:1.6.0"],\
+          ["@vitest/ui", null],\
+          ["@vitest/utils", "npm:1.6.0"],\
+          ["acorn-walk", "npm:8.3.3"],\
+          ["chai", "npm:4.4.1"],\
+          ["debug", "virtual:b26422bd59fa17e008d6bc0175738ae8cd421c0bdf97531bc9d7ba8df7eb875cf3586702fdab2ad784dd2bd788b2ef7d413cd512768add7bfe10a3e1b04e9659#npm:4.3.5"],\
+          ["execa", "npm:8.0.1"],\
+          ["happy-dom", null],\
+          ["jsdom", null],\
+          ["local-pkg", "npm:0.5.0"],\
+          ["magic-string", "npm:0.30.10"],\
+          ["pathe", "npm:1.1.2"],\
+          ["picocolors", "npm:1.0.1"],\
+          ["std-env", "npm:3.7.0"],\
+          ["strip-literal", "npm:2.1.0"],\
+          ["tinybench", "npm:2.8.0"],\
+          ["tinypool", "npm:0.8.4"],\
+          ["vite", "virtual:ab3ca760e5639cd55289aaad8daf07420bc09cf688dc26954ff5ef0b01c08a2d692e78ce9bafec76f39f1bae1aab64f649d1492caa134730e875ba0fc85d6500#npm:5.3.1"],\
+          ["vite-node", "npm:1.6.0"],\
+          ["why-is-node-running", "npm:2.2.2"]\
+        ],\
+        "packagePeers": [\
+          "@edge-runtime/vm",\
+          "@types/edge-runtime__vm",\
+          "@types/happy-dom",\
+          "@types/jsdom",\
+          "@types/node",\
+          "@types/vitest__browser",\
+          "@types/vitest__ui",\
+          "@vitest/browser",\
+          "@vitest/ui",\
+          "happy-dom",\
+          "jsdom"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["workspace:packages/vitest", {\
         "packageLocation": "./packages/vitest/",\
         "packageDependencies": [\
-          ["vitest", "workspace:packages/vitest"],\
           ["@babel/core", "npm:7.24.7"],\
           ["@babel/preset-env", "virtual:88794ca07264edd7e4d271a034f4607663f8db97b08c2a53bc9007a977703a920908be39e4c1b2e585d6ff09db3405ce553c9e39e0b3c3000f2159f9db771d25#npm:7.24.7"],\
           ["@babel/preset-react", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:7.24.7"],\
@@ -16518,10 +16794,8 @@ const RAW_RUNTIME_STATE =
           ["@storybook/react-vite", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:8.1.10"],\
           ["@storybook/test", "npm:8.1.10"],\
           ["@testing-library/dom", "npm:10.1.0"],\
-          ["@testing-library/jest-dom", "virtual:9de093e1782c000981808363f492129c721f03f74adc76b561fa6ee8c35200d59020eebb248beaa0ad010421717148c08f5dbcb74f86977b14aa311997e60f28#npm:6.4.6"],\
           ["@testing-library/react", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:16.0.0"],\
           ["@testing-library/user-event", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:14.5.2"],\
-          ["@types/jest", "npm:29.5.12"],\
           ["@types/node", "npm:20.14.5"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
@@ -16533,9 +16807,6 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:0.4.7"],\
           ["eslint-plugin-storybook", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:0.8.0"],\
-          ["jest", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:29.7.0"],\
-          ["jest-environment-jsdom", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:29.7.0"],\
-          ["jest-html-reporters", "npm:3.1.7"],\
           ["msw", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:1.3.3"],\
           ["msw-storybook-addon", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:1.10.0"],\
           ["react", "npm:18.3.1"],\
@@ -16545,7 +16816,8 @@ const RAW_RUNTIME_STATE =
           ["ts-node", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["vite", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:5.3.1"],\
-          ["vite-tsconfig-paths", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:4.3.2"]\
+          ["vite-tsconfig-paths", "virtual:02afafc0166a386804b011dfd1fc578f5ed2c69122bb3e49a96b4dc1ac018b821a3a06da2e33dd1a7e87c7cd9c2f49e073beda2c9a8dae4176d6b3f3b09e6e82#npm:4.3.2"],\
+          ["vitest", "virtual:9de093e1782c000981808363f492129c721f03f74adc76b561fa6ee8c35200d59020eebb248beaa0ad010421717148c08f5dbcb74f86977b14aa311997e60f28#npm:1.6.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -16730,6 +17002,17 @@ const RAW_RUNTIME_STATE =
           ["for-each", "npm:0.3.3"],\
           ["gopd", "npm:1.0.1"],\
           ["has-tostringtag", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["why-is-node-running", [\
+      ["npm:2.2.2", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/why-is-node-running-npm-2.2.2-881f898bf3-10c0.zip/node_modules/why-is-node-running/",\
+        "packageDependencies": [\
+          ["why-is-node-running", "npm:2.2.2"],\
+          ["siginfo", "npm:2.0.0"],\
+          ["stackback", "npm:0.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16931,6 +17214,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/yocto-queue-npm-0.1.0-c6c9a7db29-10c0.zip/node_modules/yocto-queue/",\
         "packageDependencies": [\
           ["yocto-queue", "npm:0.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../Users/예찬/AppData/Local/Yarn/Berry/cache/yocto-queue-npm-1.0.0-7b502f1987-10c0.zip/node_modules/yocto-queue/",\
+        "packageDependencies": [\
+          ["yocto-queue", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
