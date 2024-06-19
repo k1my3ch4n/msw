@@ -1,7 +1,7 @@
 import { renderHook, act } from "@testing-library/react";
 import useGetChampionData, { adapter } from "./useGetChampionData";
-import { GET_CHAMPION_DATA_RESPONSE, TFT_CHAMP_URL } from "../../fixtures/tft";
-import { server } from "../../mocks/server";
+import { GET_CHAMPION_DATA_RESPONSE, TFT_CHAMP_URL } from "@fixtures/tft";
+import { server } from "@mocks/server";
 import { rest } from "msw";
 
 describe("useGetChampionData", () => {
@@ -36,7 +36,7 @@ describe("useGetChampionData", () => {
   });
 
   it("fetchGetChampionData 가 실패하면 , console error 가 호출된다. ", async () => {
-    const mockConsoleError = jest
+    const mockConsoleError = vi
       .spyOn(console, "error")
       .mockImplementationOnce(() => undefined);
 

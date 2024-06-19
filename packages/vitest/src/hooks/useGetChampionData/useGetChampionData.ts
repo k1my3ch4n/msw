@@ -1,4 +1,4 @@
-import { TFT_CHAMP_URL } from "../../fixtures/tft";
+import { TFT_CHAMP_URL } from "@fixtures/tft";
 import axios from "axios";
 import { useState } from "react";
 

@@ -1,4 +1,4 @@
-import { GET_CHAMPION_DATA_RESPONSE, TFT_CHAMP_URL } from "../../fixtures/tft";
+import { GET_CHAMPION_DATA_RESPONSE, TFT_CHAMP_URL } from "@fixtures/tft";
 import { rest } from "msw";
 
 export const mockHandler = [
