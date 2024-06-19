@@ -1,0 +1,13 @@
+{
+  "name": "msw",
+  "packageManager": "yarn@4.3.0",
+  "scripts": {
+    "jest": "yarn workspace jest",
+    "vitest": "yarn workspace vitest"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

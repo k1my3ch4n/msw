@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+
+  border-radius: 8px;
+
+  p {
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 18px;
+  }
+}
+
+.gray {
+  background-color: gray;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: skyblue;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orange;
+}
