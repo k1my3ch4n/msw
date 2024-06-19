@@ -9,5 +9,17 @@
     "packages": [
       "packages/*"
     ]
-  }
+  },
+  "references": [
+    {
+      "path": "packages/jest"
+    },
+    {
+      "path": "packages/vitest"
+    }
+  ],
+  "exclude": [
+    "packages/**/dist/**"
+  ],
+  "include": []
 }

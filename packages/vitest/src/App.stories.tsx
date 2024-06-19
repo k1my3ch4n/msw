@@ -30,7 +30,7 @@ Loading.storyName = "로딩 중";
 Loading.parameters = {
   msw: {
     handlers: [
-      rest.get(TFT_CHAMP_URL, (req, res, ctx) => {
+      rest.get(TFT_CHAMP_URL, (_, res, ctx) => {
         return res(ctx.delay("infinite"));
       }),
     ],
@@ -42,7 +42,7 @@ Error.storyName = "에러 발생";
 Error.parameters = {
   msw: {
     handlers: [
-      rest.get(TFT_CHAMP_URL, (req, res, ctx) => {
+      rest.get(TFT_CHAMP_URL, (_, res, ctx) => {
         return res(ctx.status(400));
       }),
     ],
