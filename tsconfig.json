@@ -18,18 +18,6 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-
-    "baseUrl": ".",
-    "paths": {
-      "@src/*": ["./src/*"],
-      "@hooks/*": ["./src/hooks/*"],
-      "@components/*": ["./src/components/*"],
-      "@fixtures/*": ["./src/fixtures/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@mocks/*": ["./src/mocks/*"]
-    }
-  },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+    "noFallthroughCasesInSwitch": true
+  }
 }
